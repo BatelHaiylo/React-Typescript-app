@@ -2,8 +2,8 @@ export interface IUser {
     _id:string
     age: number
     name:{
-        firstName: string
-        lastName: string
+        first: string
+        last: string
     },
     email:string
     index:number

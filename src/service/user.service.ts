@@ -1,4 +1,4 @@
-import {IUser} from '../components/moduls/user.interface'
+import {IUser} from '../components/modals/user.interface'
 const UsersApi: string = "https://my-json-server.typicode.com/Jeck99/fake-server/users" 
 export const getUsers =async ():Promise<any> => {
     try{
